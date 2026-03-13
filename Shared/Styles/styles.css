@@ -1,0 +1,124 @@
+/* ================================================
+   StudentPortfolio - Main Stylesheet
+   ================================================ */
+
+/* Reset & Base */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px 30px;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #aad4ff;
+}
+
+/* Main Content Container */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #003366;
+    color: #ccc;
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+/* Tables (used in forms) */
+table {
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 6px 8px;
+}
+
+/* Form Inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    padding: 5px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 200px;
+}
+
+/* Buttons */
+input[type="submit"],
+input[type="button"],
+button {
+    background-color: #003366;
+    color: #fff;
+    border: none;
+    padding: 7px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover {
+    background-color: #0055a5;
+}
+
+/* Validation / Error Labels */
+span[id*="rfv"],
+span[id*="rev"],
+span[id*="cv"] {
+    color: #cc0000;
+    font-size: 12px;
+}
+
+/* Hyperlinks */
+a {
+    color: #003366;
+}
+
+a:hover {
+    color: #0055a5;
+}
